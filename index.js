@@ -267,6 +267,7 @@ app.get('/Usuarios/', (req, res)=>{
             obj.lista = resultado
             res.json(obj)
             
+            
         }
             else {
                 res.json('No hay registro de usuarios')
@@ -367,6 +368,7 @@ app.get('/TablaDeCredenciales/', (req, res)=>{
             
         if(resultado.length> 0) {
             obj.lista = resultado
+            
             res.json(obj)
             
         }
